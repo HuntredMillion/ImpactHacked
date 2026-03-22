@@ -179,14 +179,33 @@ function computeWeirdness(sortedCommits, allAuthors, K_global) {
 }
 
 /**
- * Composite: geometric mean of ownership, weirdness, first_mover.
- * Uses 0.5 as neutral when a metric is null.
+ * Compute mean of non-null values for each metric.
  */
-function computeComposite(byAuthor) {
+function computeMetricMeans(byAuthor) {
+  let oSum = 0, oCount = 0;
+  let wSum = 0, wCount = 0;
+  let fSum = 0, fCount = 0;
+  for (const m of Object.values(byAuthor)) {
+    if (m.ownership != null) { oSum += m.ownership; oCount++; }
+    if (m.weirdness != null) { wSum += m.weirdness; wCount++; }
+    if (m.firstMoverRate != null) { fSum += m.firstMoverRate; fCount++; }
+  }
+  return {
+    ownershipMean: oCount > 0 ? oSum / oCount : 0.5,
+    weirdnessMean: wCount > 0 ? wSum / wCount : 0.5,
+    firstMoverRateMean: fCount > 0 ? fSum / fCount : 0.5,
+  };
+}
+
+/**
+ * Composite: geometric mean of ownership, weirdness, first_mover.
+ * Uses mean of all other contributors when a metric is null.
+ */
+function computeComposite(byAuthor, means) {
   return Object.entries(byAuthor).map(([authorId, m]) => {
-    const o = m.ownership ?? 0.5;
-    const w = m.weirdness ?? 0.5;
-    const f = m.firstMoverRate ?? 0.5;
+    const o = m.ownership ?? means.ownershipMean;
+    const w = m.weirdness ?? means.weirdnessMean;
+    const f = m.firstMoverRate ?? means.firstMoverRateMean;
     const product = Math.max(1e-10, o) * Math.max(1e-10, w) * Math.max(1e-10, f);
     const composite = product ** (1 / 3);
     return { authorId, ...m, composite };
@@ -240,7 +259,8 @@ async function main() {
     };
   }
 
-  const compositeResults = computeComposite(byAuthor);
+  const means = computeMetricMeans(byAuthor);
+  const compositeResults = computeComposite(byAuthor, means);
 
   const hasAnyMetric = (r) =>
     r.ownership != null || r.weirdness != null || r.firstMoverRate != null;

@@ -67,8 +67,7 @@ export default function TopHogTab({ engineers, metricBreakdown }: TopHogTabProps
           </div>
           <p className="mt-2 text-xs text-slate-500">
             When a metric is null (e.g., fewer than 5 fix commits for ownership),
-            it defaults to 0.5 so that author can still receive a composite
-            score.
+            it defaults to the mean of all other contributors for that metric.
           </p>
         </div>
       </section>

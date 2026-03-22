@@ -4,7 +4,7 @@ import type { EngineerScore } from "@/lib/types";
 interface MetricCardProps {
   metadata: MetricMetadata;
   engineers: EngineerScore[];
-  valueKey: keyof NonNullable<EngineerScore["metrics"]>;
+  valueKey: string;
 }
 
 function formatValue(value: number | null | undefined): string {

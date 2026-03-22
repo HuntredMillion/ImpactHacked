@@ -120,8 +120,8 @@ async function main() {
     .slice(0, 5);
 
   const data: ImpactData = {
-    engineeringImpact: engineeringTop5,
-    hogFactor: hogFactorTop5,
+    topHog: engineeringTop5,
+    metricBreakdown: hogFactorTop5,
     lastUpdated: new Date().toISOString(),
   };
 
