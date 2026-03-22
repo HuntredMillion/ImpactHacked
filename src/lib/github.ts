@@ -28,6 +28,17 @@ export async function getCommits(owner = OWNER, repo = REPO, since?: string) {
   return data;
 }
 
+export async function getAllCommits(owner = OWNER, repo = REPO, since?: string) {
+  const octokit = getOctokit();
+  const sinceDate = since ?? getSinceDate();
+  return octokit.paginate(octokit.rest.repos.listCommits, {
+    owner,
+    repo,
+    since: sinceDate,
+    per_page: 100,
+  });
+}
+
 export async function getContributors(owner = OWNER, repo = REPO) {
   const octokit = getOctokit();
   const { data } = await octokit.rest.repos.listContributors({
@@ -64,6 +75,33 @@ export async function getPullRequests(
     per_page: 100,
   });
   return data.filter((pr) => pr.merged_at && new Date(pr.merged_at) >= new Date(sinceDate));
+}
+
+export async function getAllMergedPRs(owner = OWNER, repo = REPO, since?: string) {
+  const octokit = getOctokit();
+  const sinceDate = since ?? getSinceDate();
+  const sinceTime = new Date(sinceDate).getTime();
+  const all: Awaited<ReturnType<typeof octokit.rest.pulls.list>>["data"] = [];
+  // Search API doesn't return merged_at reliably. Paginate through all closed PRs
+  // and filter. Max 400 pages (~40k PRs) to stay within reasonable runtime.
+  const MAX_PAGES = 400;
+  for (let page = 1; page <= MAX_PAGES; page++) {
+    const { data } = await octokit.rest.pulls.list({
+      owner,
+      repo,
+      state: "closed",
+      sort: "updated",
+      direction: "desc",
+      per_page: 100,
+      page,
+    });
+    if (data.length === 0) break;
+    for (const pr of data) {
+      if (!pr.merged_at) continue;
+      if (new Date(pr.merged_at).getTime() >= sinceTime) all.push(pr);
+    }
+  }
+  return all;
 }
 
 export async function getPullRequestReviews(

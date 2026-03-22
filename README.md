@@ -1,4 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PostHog Impact
+
+**TOP HOG** — Engineering Impact analysis for [PostHog/posthog](https://github.com/PostHog/posthog) contributors (last 90 days). Metrics: ownership (cross-author fix rate), weirdness (scope entropy), and first-mover rate. All derived from conventional commits via GitHub API; no local clone required.
+
+## Data Flow
+
+Scores are **precomputed** (not computed on page load) for fast loads:
+
+- **GitHub Action** (`.github/workflows/compute-impact.yml`) runs daily and on manual trigger
+- Fetches all commits (~18k) and merged PRs (~18k) from the last 90 days via GitHub API
+- Writes `data/impact.json` and commits it to the repo
+- The **API route** (`/api/impact`) reads from this static file—no GitHub API calls at request time
+
+To precompute locally (requires `GITHUB_TOKEN`):
+
+```bash
+GITHUB_TOKEN=your_token npm run compute-impact
+```
 
 ## Getting Started
 

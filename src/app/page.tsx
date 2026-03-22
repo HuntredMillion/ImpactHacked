@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import TopHogTab from "@/components/TopHogTab";
 import Header from "@/components/Header";
-import ScoreSection from "@/components/ScoreSection";
 import type { ImpactData } from "@/lib/types";
 
 export default function Home() {
@@ -41,17 +41,13 @@ export default function Home() {
           </div>
         )}
         {!loading && !error && data && (
-          <div className="grid gap-8 lg:grid-cols-2">
-            <ScoreSection
-              title="Engineering Impact"
-              subtitle="Top engineers by contribution volume"
-              engineers={data.engineeringImpact}
-            />
-            <ScoreSection
-              title="HOG FACTOR"
-              subtitle="Top engineers by company values"
-              engineers={data.hogFactor}
-            />
+          <div className="space-y-6">
+            <div className="rounded-2xl border border-slate-700/50 bg-slate-900/50 p-6">
+              <TopHogTab
+                engineers={data.topHog}
+                metricBreakdown={data.metricBreakdown}
+              />
+            </div>
           </div>
         )}
         {!loading && !error && data && (
