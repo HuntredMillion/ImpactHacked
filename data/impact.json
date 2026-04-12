@@ -186,7 +186,7 @@
         "ownership": 0.5972222222222222,
         "weirdness": 0.36813379394503076,
         "firstMoverRate": 0.32,
-        "commits": 148
+        "commits": 149
       }
     },
     {
@@ -285,7 +285,7 @@
         "ownership": 0.5087719298245614,
         "weirdness": 0.3152270297593916,
         "firstMoverRate": 0.35,
-        "commits": 128
+        "commits": 126
       }
     },
     {
@@ -597,16 +597,16 @@
       }
     },
     {
-      "login": "sakce",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/49978945?v=4",
+      "login": "jose-sequeira",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/117165826?v=4",
       "score": 0.29,
       "metrics": {
-        "ownership": 0.3333333333333333,
-        "weirdness": 0.25570732535746965,
-        "firstMoverRate": 0.2857142857142857,
-        "commits": 149
+        "ownership": null,
+        "weirdness": 0.17199193798356738,
+        "firstMoverRate": 0.3333333333333333,
+        "commits": 99
       }
     }
   ],
-  "lastUpdated": "2026-04-11T01:28:29.402Z"
+  "lastUpdated": "2026-04-12T01:52:13.673Z"
 }
