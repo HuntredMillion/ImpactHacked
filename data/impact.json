@@ -1,25 +1,25 @@
 {
   "topHog": [
     {
-      "login": "pauldambra",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/984817?v=4",
+      "login": "tomasfarias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18740659?v=4",
       "score": 0.49,
       "metrics": {
-        "ownership": 0.6956521739130435,
-        "weirdness": 0.61084440853033,
-        "firstMoverRate": 0.27710843373493976,
-        "commits": 451
+        "ownership": 0.6363636363636364,
+        "weirdness": 0.3688410589507371,
+        "firstMoverRate": 0.5,
+        "commits": 68
       }
     },
     {
-      "login": "tomasfarias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18740659?v=4",
-      "score": 0.485,
+      "login": "pauldambra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/984817?v=4",
+      "score": 0.484,
       "metrics": {
-        "ownership": 0.625,
-        "weirdness": 0.36552873505067207,
-        "firstMoverRate": 0.5,
-        "commits": 67
+        "ownership": 0.7055214723926381,
+        "weirdness": 0.6118140907938759,
+        "firstMoverRate": 0.2619047619047619,
+        "commits": 458
       }
     },
     {
@@ -28,7 +28,7 @@
       "score": 0.473,
       "metrics": {
         "ownership": 1,
-        "weirdness": 0.3174239058031965,
+        "weirdness": 0.317057484718634,
         "firstMoverRate": 0.3333333333333333,
         "commits": 22
       }
@@ -36,12 +36,12 @@
     {
       "login": "yasen-posthog",
       "avatarUrl": "https://avatars.githubusercontent.com/u/213223200?v=4",
-      "score": 0.465,
+      "score": 0.469,
       "metrics": {
-        "ownership": 0.4411764705882353,
-        "weirdness": 0.434208023380377,
+        "ownership": 0.45714285714285713,
+        "weirdness": 0.4296553280884661,
         "firstMoverRate": 0.5263157894736842,
-        "commits": 70
+        "commits": 72
       }
     },
     {
@@ -50,7 +50,7 @@
       "score": 0.46,
       "metrics": {
         "ownership": null,
-        "weirdness": 0.33917843201241377,
+        "weirdness": 0.33878689839870013,
         "firstMoverRate": 0.4444444444444444,
         "commits": 12
       }
@@ -58,25 +58,25 @@
   ],
   "metricBreakdown": [
     {
-      "login": "pauldambra",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/984817?v=4",
+      "login": "tomasfarias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18740659?v=4",
       "score": 0.49,
       "metrics": {
-        "ownership": 0.6956521739130435,
-        "weirdness": 0.61084440853033,
-        "firstMoverRate": 0.27710843373493976,
-        "commits": 451
+        "ownership": 0.6363636363636364,
+        "weirdness": 0.3688410589507371,
+        "firstMoverRate": 0.5,
+        "commits": 68
       }
     },
     {
-      "login": "tomasfarias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18740659?v=4",
-      "score": 0.485,
+      "login": "pauldambra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/984817?v=4",
+      "score": 0.484,
       "metrics": {
-        "ownership": 0.625,
-        "weirdness": 0.36552873505067207,
-        "firstMoverRate": 0.5,
-        "commits": 67
+        "ownership": 0.7055214723926381,
+        "weirdness": 0.6118140907938759,
+        "firstMoverRate": 0.2619047619047619,
+        "commits": 458
       }
     },
     {
@@ -85,7 +85,7 @@
       "score": 0.473,
       "metrics": {
         "ownership": 1,
-        "weirdness": 0.3174239058031965,
+        "weirdness": 0.317057484718634,
         "firstMoverRate": 0.3333333333333333,
         "commits": 22
       }
@@ -93,12 +93,12 @@
     {
       "login": "yasen-posthog",
       "avatarUrl": "https://avatars.githubusercontent.com/u/213223200?v=4",
-      "score": 0.465,
+      "score": 0.469,
       "metrics": {
-        "ownership": 0.4411764705882353,
-        "weirdness": 0.434208023380377,
+        "ownership": 0.45714285714285713,
+        "weirdness": 0.4296553280884661,
         "firstMoverRate": 0.5263157894736842,
-        "commits": 70
+        "commits": 72
       }
     },
     {
@@ -107,7 +107,7 @@
       "score": 0.46,
       "metrics": {
         "ownership": null,
-        "weirdness": 0.33917843201241377,
+        "weirdness": 0.33878689839870013,
         "firstMoverRate": 0.4444444444444444,
         "commits": 12
       }
@@ -115,34 +115,34 @@
     {
       "login": "fercgomes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/28491014?v=4",
-      "score": 0.453,
+      "score": 0.451,
       "metrics": {
         "ownership": 0.525,
-        "weirdness": 0.4357072997878668,
-        "firstMoverRate": 0.40625,
-        "commits": 111
+        "weirdness": 0.44218147631133525,
+        "firstMoverRate": 0.3939393939393939,
+        "commits": 114
       }
     },
     {
       "login": "posthog[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/1203049?v=4",
-      "score": 0.446,
+      "score": 0.441,
       "metrics": {
-        "ownership": 0.692524682651622,
-        "weirdness": 0.6326479112660289,
-        "firstMoverRate": 0.20279720279720279,
-        "commits": 954
+        "ownership": 0.6970954356846473,
+        "weirdness": 0.629703619176126,
+        "firstMoverRate": 0.1958041958041958,
+        "commits": 979
       }
     },
     {
-      "login": "vdekrijger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66254686?v=4",
-      "score": 0.433,
+      "login": "sortafreel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/354488?v=4",
+      "score": 0.435,
       "metrics": {
-        "ownership": 0.6216216216216216,
-        "weirdness": 0.3138190260847123,
-        "firstMoverRate": 0.4166666666666667,
-        "commits": 79
+        "ownership": 0.6666666666666666,
+        "weirdness": 0.3211976033922289,
+        "firstMoverRate": 0.38461538461538464,
+        "commits": 74
       }
     },
     {
@@ -151,20 +151,9 @@
       "score": 0.432,
       "metrics": {
         "ownership": 0.5217391304347826,
-        "weirdness": 0.4111268969165086,
+        "weirdness": 0.4106523089579243,
         "firstMoverRate": 0.375,
         "commits": 108
-      }
-    },
-    {
-      "login": "sortafreel",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/354488?v=4",
-      "score": 0.431,
-      "metrics": {
-        "ownership": 0.6111111111111112,
-        "weirdness": 0.3149602883280053,
-        "firstMoverRate": 0.4166666666666667,
-        "commits": 70
       }
     },
     {
@@ -173,7 +162,7 @@
       "score": 0.431,
       "metrics": {
         "ownership": 1,
-        "weirdness": 0.4270493866343208,
+        "weirdness": 0.4265564184093335,
         "firstMoverRate": 0.1875,
         "commits": 26
       }
@@ -181,10 +170,10 @@
     {
       "login": "eli-r-ph",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197809444?v=4",
-      "score": 0.431,
+      "score": 0.43,
       "metrics": {
         "ownership": 0.3953488372093023,
-        "weirdness": 0.3837569679185988,
+        "weirdness": 0.3833139746788888,
         "firstMoverRate": 0.5263157894736842,
         "commits": 95
       }
@@ -195,20 +184,31 @@
       "score": 0.429,
       "metrics": {
         "ownership": 0.5641025641025641,
-        "weirdness": 0.3503929067049943,
+        "weirdness": 0.34998842756353515,
         "firstMoverRate": 0.4,
-        "commits": 134
+        "commits": 135
+      }
+    },
+    {
+      "login": "vdekrijger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66254686?v=4",
+      "score": 0.428,
+      "metrics": {
+        "ownership": 0.6052631578947368,
+        "weirdness": 0.3119510216991742,
+        "firstMoverRate": 0.4166666666666667,
+        "commits": 80
       }
     },
     {
       "login": "adamleithp",
       "avatarUrl": "https://avatars.githubusercontent.com/u/814190?v=4",
-      "score": 0.426,
+      "score": 0.424,
       "metrics": {
         "ownership": 0.5116279069767442,
-        "weirdness": 0.24150231738933128,
+        "weirdness": 0.23777713909159837,
         "firstMoverRate": 0.625,
-        "commits": 94
+        "commits": 96
       }
     },
     {
@@ -217,7 +217,7 @@
       "score": 0.422,
       "metrics": {
         "ownership": 0.5714285714285714,
-        "weirdness": 0.48773972441649877,
+        "weirdness": 0.48717669776495304,
         "firstMoverRate": 0.2692307692307692,
         "commits": 67
       }
@@ -228,9 +228,20 @@
       "score": 0.421,
       "metrics": {
         "ownership": 0.7142857142857143,
-        "weirdness": 0.349091208130528,
+        "weirdness": 0.34868823161629614,
         "firstMoverRate": 0.3,
         "commits": 18
+      }
+    },
+    {
+      "login": "fuziontech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/391319?v=4",
+      "score": 0.419,
+      "metrics": {
+        "ownership": 0.3333333333333333,
+        "weirdness": 0.2650805861198399,
+        "firstMoverRate": 0.8333333333333334,
+        "commits": 16
       }
     },
     {
@@ -239,20 +250,9 @@
       "score": 0.414,
       "metrics": {
         "ownership": null,
-        "weirdness": 0.10994572281936191,
+        "weirdness": 0.10981880600477434,
         "firstMoverRate": 1,
         "commits": 2
-      }
-    },
-    {
-      "login": "fuziontech",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/391319?v=4",
-      "score": 0.412,
-      "metrics": {
-        "ownership": 0.3076923076923077,
-        "weirdness": 0.27188539314150806,
-        "firstMoverRate": 0.8333333333333334,
-        "commits": 18
       }
     },
     {
@@ -261,7 +261,7 @@
       "score": 0.411,
       "metrics": {
         "ownership": 0.5581395348837209,
-        "weirdness": 0.19943956470966967,
+        "weirdness": 0.1992093398895803,
         "firstMoverRate": 0.625,
         "commits": 105
       }
@@ -272,9 +272,20 @@
       "score": 0.409,
       "metrics": {
         "ownership": 0.85,
-        "weirdness": 0.1875733844739528,
+        "weirdness": 0.18735685748364908,
         "firstMoverRate": 0.42857142857142855,
         "commits": 49
+      }
+    },
+    {
+      "login": "k11kirky",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4571455?v=4",
+      "score": 0.408,
+      "metrics": {
+        "ownership": 0.6875,
+        "weirdness": 0.2477301150335889,
+        "firstMoverRate": 0.4,
+        "commits": 117
       }
     },
     {
@@ -283,7 +294,7 @@
       "score": 0.405,
       "metrics": {
         "ownership": 0.8,
-        "weirdness": 0.4161381650468682,
+        "weirdness": 0.41565779228673055,
         "firstMoverRate": 0.2,
         "commits": 21
       }
@@ -294,7 +305,7 @@
       "score": 0.402,
       "metrics": {
         "ownership": null,
-        "weirdness": 0.15073015405695245,
+        "weirdness": 0.1505561573745473,
         "firstMoverRate": 0.6666666666666666,
         "commits": 5
       }
@@ -305,20 +316,9 @@
       "score": 0.4,
       "metrics": {
         "ownership": null,
-        "weirdness": 0.24755699632961223,
+        "weirdness": 0.2472712267280549,
         "firstMoverRate": 0.4,
         "commits": 6
-      }
-    },
-    {
-      "login": "nickbest-ph",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/206742387?v=4",
-      "score": 0.398,
-      "metrics": {
-        "ownership": 0.4444444444444444,
-        "weirdness": 0.37915508948218896,
-        "firstMoverRate": 0.375,
-        "commits": 63
       }
     },
     {
@@ -327,7 +327,7 @@
       "score": 0.398,
       "metrics": {
         "ownership": 0.6666666666666666,
-        "weirdness": 0.2842055706027328,
+        "weirdness": 0.28387749539631296,
         "firstMoverRate": 0.3333333333333333,
         "commits": 6
       }
@@ -335,12 +335,12 @@
     {
       "login": "thmsobrmlr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1851359?v=4",
-      "score": 0.392,
+      "score": 0.389,
       "metrics": {
-        "ownership": 0.6938775510204082,
-        "weirdness": 0.42068236684978055,
-        "firstMoverRate": 0.20588235294117646,
-        "commits": 209
+        "ownership": 0.696969696969697,
+        "weirdness": 0.4236133835236874,
+        "firstMoverRate": 0.2,
+        "commits": 215
       }
     },
     {
@@ -349,31 +349,31 @@
       "score": 0.389,
       "metrics": {
         "ownership": 0.6666666666666666,
-        "weirdness": 0.2644897255393216,
+        "weirdness": 0.264184409492496,
         "firstMoverRate": 0.3333333333333333,
         "commits": 10
       }
     },
     {
-      "login": "sampennington",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/56024559?v=4",
-      "score": 0.385,
+      "login": "cvolzer3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15130376?v=4",
+      "score": 0.388,
       "metrics": {
-        "ownership": 0.5247524752475248,
-        "weirdness": 0.38943359529558036,
-        "firstMoverRate": 0.27906976744186046,
-        "commits": 267
+        "ownership": 0.4888888888888889,
+        "weirdness": 0.33540383993918294,
+        "firstMoverRate": 0.35714285714285715,
+        "commits": 87
       }
     },
     {
-      "login": "k11kirky",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4571455?v=4",
-      "score": 0.384,
+      "login": "sampennington",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56024559?v=4",
+      "score": 0.386,
       "metrics": {
-        "ownership": 0.6956521739130435,
-        "weirdness": 0.2433436483780613,
-        "firstMoverRate": 0.3333333333333333,
-        "commits": 114
+        "ownership": 0.5294117647058824,
+        "weirdness": 0.38890501076483663,
+        "firstMoverRate": 0.27906976744186046,
+        "commits": 269
       }
     },
     {
@@ -382,9 +382,31 @@
       "score": 0.383,
       "metrics": {
         "ownership": 0.7083333333333334,
-        "weirdness": 0.3432650811208852,
+        "weirdness": 0.342868830047739,
         "firstMoverRate": 0.23076923076923078,
         "commits": 32
+      }
+    },
+    {
+      "login": "rafaeelaudibert",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32079912?v=4",
+      "score": 0.383,
+      "metrics": {
+        "ownership": 0.5641025641025641,
+        "weirdness": 0.6133979278365924,
+        "firstMoverRate": 0.16176470588235295,
+        "commits": 200
+      }
+    },
+    {
+      "login": "nickbest-ph",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/206742387?v=4",
+      "score": 0.382,
+      "metrics": {
+        "ownership": 0.4,
+        "weirdness": 0.3721349013902053,
+        "firstMoverRate": 0.375,
+        "commits": 66
       }
     },
     {
@@ -393,31 +415,20 @@
       "score": 0.382,
       "metrics": {
         "ownership": null,
-        "weirdness": 0.3023507377532452,
+        "weirdness": 0.3020017165131294,
         "firstMoverRate": 0.2857142857142857,
         "commits": 8
       }
     },
     {
-      "login": "rafaeelaudibert",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/32079912?v=4",
-      "score": 0.381,
-      "metrics": {
-        "ownership": 0.5526315789473685,
-        "weirdness": 0.6116573779593623,
-        "firstMoverRate": 0.16417910447761194,
-        "commits": 198
-      }
-    },
-    {
       "login": "rnegron",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4153103?v=4",
-      "score": 0.378,
+      "score": 0.379,
       "metrics": {
-        "ownership": 0.5068493150684932,
-        "weirdness": 0.3719318217883945,
+        "ownership": 0.5135135135135135,
+        "weirdness": 0.37014836398758555,
         "firstMoverRate": 0.2857142857142857,
-        "commits": 264
+        "commits": 272
       }
     },
     {
@@ -426,7 +437,7 @@
       "score": 0.375,
       "metrics": {
         "ownership": 0.8666666666666667,
-        "weirdness": 0.24278763059568526,
+        "weirdness": 0.24250736655351698,
         "firstMoverRate": 0.25,
         "commits": 37
       }
@@ -437,7 +448,7 @@
       "score": 0.373,
       "metrics": {
         "ownership": 0.375,
-        "weirdness": 0.27727520729084737,
+        "weirdness": 0.2769551322104254,
         "firstMoverRate": 0.5,
         "commits": 11
       }
@@ -448,7 +459,7 @@
       "score": 0.37,
       "metrics": {
         "ownership": 0.7,
-        "weirdness": 0.31273646359113066,
+        "weirdness": 0.3123754534968173,
         "firstMoverRate": 0.23076923076923078,
         "commits": 54
       }
@@ -459,7 +470,7 @@
       "score": 0.369,
       "metrics": {
         "ownership": 0.7818181818181819,
-        "weirdness": 0.2577392387338685,
+        "weirdness": 0.25744171517100944,
         "firstMoverRate": 0.25,
         "commits": 95
       }
@@ -467,23 +478,12 @@
     {
       "login": "skoob13",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13541795?v=4",
-      "score": 0.368,
-      "metrics": {
-        "ownership": 0.5512820512820513,
-        "weirdness": 0.3451754324249435,
-        "firstMoverRate": 0.2608695652173913,
-        "commits": 179
-      }
-    },
-    {
-      "login": "cvolzer3",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15130376?v=4",
       "score": 0.366,
       "metrics": {
-        "ownership": 0.5,
-        "weirdness": 0.3433444156639976,
-        "firstMoverRate": 0.2857142857142857,
-        "commits": 83
+        "ownership": 0.5357142857142857,
+        "weirdness": 0.3504462815933194,
+        "firstMoverRate": 0.2608695652173913,
+        "commits": 186
       }
     },
     {
@@ -492,7 +492,7 @@
       "score": 0.363,
       "metrics": {
         "ownership": 0.7272727272727273,
-        "weirdness": 0.44487981467029253,
+        "weirdness": 0.44436626373348137,
         "firstMoverRate": 0.14814814814814814,
         "commits": 59
       }
@@ -503,31 +503,20 @@
       "score": 0.361,
       "metrics": {
         "ownership": 0.6052631578947368,
-        "weirdness": 0.3507655614923692,
+        "weirdness": 0.3503606521735704,
         "firstMoverRate": 0.2222222222222222,
-        "commits": 74
+        "commits": 75
       }
     },
     {
       "login": "andyzzhao",
       "avatarUrl": "https://avatars.githubusercontent.com/u/34008309?v=4",
-      "score": 0.361,
-      "metrics": {
-        "ownership": 0.6666666666666666,
-        "weirdness": 0.4461130338247384,
-        "firstMoverRate": 0.15789473684210525,
-        "commits": 62
-      }
-    },
-    {
-      "login": "Piccirello",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8296030?v=4",
       "score": 0.36,
       "metrics": {
-        "ownership": 0.675,
-        "weirdness": 0.4991418060259048,
-        "firstMoverRate": 0.13793103448275862,
-        "commits": 91
+        "ownership": 0.6666666666666666,
+        "weirdness": 0.444926736330182,
+        "firstMoverRate": 0.15789473684210525,
+        "commits": 63
       }
     },
     {
@@ -536,7 +525,7 @@
       "score": 0.358,
       "metrics": {
         "ownership": 0.7857142857142857,
-        "weirdness": 0.31165233130530867,
+        "weirdness": 0.31129257268865884,
         "firstMoverRate": 0.1875,
         "commits": 99
       }
@@ -547,20 +536,31 @@
       "score": 0.355,
       "metrics": {
         "ownership": 0.43902439024390244,
-        "weirdness": 0.3408897294785639,
+        "weirdness": 0.3404962204135307,
         "firstMoverRate": 0.3,
         "commits": 93
       }
     },
     {
-      "login": "charlesvien",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5378415?v=4",
+      "login": "Piccirello",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8296030?v=4",
       "score": 0.355,
       "metrics": {
-        "ownership": 0.5357142857142857,
-        "weirdness": 0.2681886932023287,
-        "firstMoverRate": 0.3125,
-        "commits": 123
+        "ownership": 0.6511627906976745,
+        "weirdness": 0.49652700588481236,
+        "firstMoverRate": 0.13793103448275862,
+        "commits": 94
+      }
+    },
+    {
+      "login": "orian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/144554?v=4",
+      "score": 0.353,
+      "metrics": {
+        "ownership": 0.46153846153846156,
+        "weirdness": 0.2861725299487003,
+        "firstMoverRate": 0.3333333333333333,
+        "commits": 80
       }
     },
     {
@@ -569,20 +569,9 @@
       "score": 0.347,
       "metrics": {
         "ownership": 0.6666666666666666,
-        "weirdness": 0.35512565778273036,
+        "weirdness": 0.35471571534833346,
         "firstMoverRate": 0.17647058823529413,
         "commits": 73
-      }
-    },
-    {
-      "login": "webjunkie",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/59713?v=4",
-      "score": 0.345,
-      "metrics": {
-        "ownership": 0.32989690721649484,
-        "weirdness": 0.3740724688875478,
-        "firstMoverRate": 0.3333333333333333,
-        "commits": 288
       }
     },
     {
@@ -591,22 +580,33 @@
       "score": 0.343,
       "metrics": {
         "ownership": 0.8235294117647058,
-        "weirdness": 0.442362788509294,
+        "weirdness": 0.44185214312382576,
         "firstMoverRate": 0.1111111111111111,
         "commits": 32
       }
     },
     {
-      "login": "a-lider",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/221966567?v=4",
+      "login": "Gilbert09",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1459269?v=4",
+      "score": 0.34,
+      "metrics": {
+        "ownership": 0.10451977401129943,
+        "weirdness": 0.4400740076565885,
+        "firstMoverRate": 0.8571428571428571,
+        "commits": 2490
+      }
+    },
+    {
+      "login": "webjunkie",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59713?v=4",
       "score": 0.339,
       "metrics": {
-        "ownership": 0.6538461538461539,
-        "weirdness": 0.3768687889884561,
-        "firstMoverRate": 0.15789473684210525,
-        "commits": 84
+        "ownership": 0.32323232323232326,
+        "weirdness": 0.37249134261045336,
+        "firstMoverRate": 0.3235294117647059,
+        "commits": 295
       }
     }
   ],
-  "lastUpdated": "2026-09-11T02:16:48.127Z"
+  "lastUpdated": "2026-09-12T02:23:57.208Z"
 }
